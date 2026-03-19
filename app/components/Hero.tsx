@@ -82,7 +82,7 @@ export default function HeroSlider() {
                 loading={i === 0 ? "eager" : "lazy"}
                 fetchPriority={i === 0 ? "high" : "low"}
                 sizes="100vw"
-                quality={i === 0 ? 85 : 75}
+                quality={i === 0 ?  70 : 75}
               />
             </div>
             <div className="absolute inset-0 z-20 bg-gradient-to-t from-black/75 via-black/25 to-transparent" />

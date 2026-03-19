@@ -263,7 +263,7 @@ export default function CalendarWidget() {
                             className="object-contain p-2"
                             sizes="200px"
                             loading="lazy"
-                            quality={80}
+                            quality={70}
                           />
                           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all duration-300 flex flex-col items-center justify-center gap-1 pointer-events-none">
                             <span className="text-white text-[15px] font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 drop-shadow px-2 text-center transform group-hover:scale-110">
